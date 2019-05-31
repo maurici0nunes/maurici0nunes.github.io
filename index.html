@@ -38,7 +38,7 @@
                 <a href="#navBar">
                     <img class="logo" src="/res/svg/logo.svg">
                 </a>
-                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="true"
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
                     data-target="navBar">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
@@ -78,11 +78,13 @@
 
         <div class="hero-body">
             <div class="container">
-                <h1 class="title is-secundary-color is-spaced has-text-centered">SERVIÇOS</h1>
+                <h1 data-sal="zoom-in" data-sal-duration="600"
+                    class="title is-secundary-color is-spaced has-text-centered">SERVIÇOS</h1>
                 <br>
                 <div class="columns">
 
-                    <div class="column is-4" data-sal="slide-right" data-sal-delay="300">
+                    <div class="column is-4" data-sal="zoom-in" data-sal-duration="600" data-sal-delay="300"
+                        data-sal-easing="ease-out-bounce">
                         <figure class="image is-2by1">
                             <img src="res/svg/dev.svg" alt="">
                         </figure>
@@ -93,7 +95,7 @@
                             tabletes e computadores.</p>
                     </div>
 
-                    <div class="column is-4" data-sal="fade" data-sal-delay="300">
+                    <div class="column is-4" data-sal="zoom-in" data-sal-duration="600" data-sal-delay="300">
                         <figure class="image is-2by1">
                             <img src="res/svg/ident.svg" alt="">
                         </figure>
@@ -103,7 +105,8 @@
                             pequenas empresas que estão começando.</p>
                     </div>
 
-                    <div class="column is-4" data-sal="slide-left" data-sal-delay="300">
+                    <div class="column is-4" data-sal="zoom-in" data-sal-duration="600" data-sal-delay="300"
+                        data-sal-easing="ease-out-bounce">
                         <figure class="image is-2by1">
                             <img src="res/svg/graph.svg" alt="">
                         </figure>
@@ -122,7 +125,8 @@
 
     <section id="portifolio" class="section portifolio_bg">
         <div class="container">
-            <h1 class="title has-text-white is-spaced has-text-centered">PORTIFÓLIO</h1>
+            <h1 data-sal="zoom-in" data-sal-duration="600" class="title has-text-white is-spaced has-text-centered">
+                PORTIFÓLIO</h1>
             <section class="section" style="overflow: hidden">
                 <!-- Start Carousel -->
                 <div id="carousel-bulma" class="carousel">
@@ -227,7 +231,7 @@
 
                 </div>
             </div>
-            <p><strong>Desenvolvido</strong> por <a href="#navBar">Mauricio Nunes</a></p>
+            <p><strong>Desenvolvido</strong> por <a href="#navBar">Mauricio Ribeiro Nunes</a></p>
         </div>
     </footer>
 
@@ -243,7 +247,7 @@
                 ],
                 typeSpeed: 100,
                 cursorChar: '&#95;',
-                backSpeed: 60,
+                backSpeed: 45,
                 backDelay: 1200,
                 loop: true
             });
@@ -272,7 +276,7 @@
         });
 
         sal({
-            threshold: 0.8,
+            threshold: 0.75,
             once: false,
         })
 

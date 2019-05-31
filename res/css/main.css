@@ -63,6 +63,7 @@ a.navbar-item:hover {
     background-image: url('/res/img/header.jpg');
     background-attachment: fixed;
     background-size: cover;
+    min-height: calc(100vh - 84px) !important;
 }
 
 .typed {
@@ -93,7 +94,7 @@ a.navbar-item:hover {
     position: absolute;
     width: 55%;
     height: 125px;
-    top: -44px;
+    top: -36px;
     z-index: -1;
 }
 
