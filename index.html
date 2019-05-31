@@ -30,6 +30,8 @@
 
 <body>
 
+    <div id="loader" class="pageloader is-active"><span class="title">Pageloader</span></div>
+
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="container">
             <div class="navbar-brand">
@@ -230,20 +232,10 @@
     </footer>
 
     <script>
-        sal({
-            threshold: 0.8,
-            once: false,
-        })
-
-        bulmaCarousel.attach('#carousel-bulma', {
-            slidesToScroll: 1,
-            slidesToShow: 3,
-            pagination: false,
-            infinite: true,
-            loop: false
-        });
-
         document.addEventListener('DOMContentLoaded', () => {
+
+            let loader = document.getElementById('loader');
+            loader.classList.remove('is-active');
 
             var typed3 = new Typed('#typed', {
                 strings: [
@@ -277,6 +269,19 @@
                     });
                 });
             }
+        });
+
+        sal({
+            threshold: 0.8,
+            once: false,
+        })
+
+        bulmaCarousel.attach('#carousel-bulma', {
+            slidesToScroll: 1,
+            slidesToShow: 3,
+            pagination: false,
+            infinite: true,
+            loop: false
         });
     </script>
 
