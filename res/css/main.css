@@ -127,6 +127,13 @@ a.navbar-item:hover {
     -o-transform: skewY(-5deg);
 }
 
+/* FOOTER */
+
+.item-footer {
+    display: inline-flex;
+    align-items: center;
+}
+
 /* LOADER */
 
 .pageloader {
