@@ -129,7 +129,7 @@ a.navbar-item:hover {
 
 /* FOOTER */
 
-.item-footer {
+.is-itens-center {
     display: inline-flex;
     align-items: center;
 }
