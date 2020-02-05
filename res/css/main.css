@@ -19,6 +19,10 @@ body {
     padding: 0 12px;
 }
 
+.section{
+    padding: 6rem 1.5rem;
+}
+
 /* NavBar */
 
 .logo {
@@ -132,6 +136,19 @@ a.navbar-item:hover {
 .is-itens-center {
     display: inline-flex;
     align-items: center;
+}
+
+.footer{
+    background-color: #272e33;
+    color: white;
+    padding: 3rem 1.5rem !important;
+}
+
+.copyright{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0.75rem;
 }
 
 /* LOADER */
