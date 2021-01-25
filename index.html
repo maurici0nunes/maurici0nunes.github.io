@@ -7,11 +7,11 @@
     <meta charset="UTF-8" />
     <meta
       name="description"
-      content="Mauricio Ribeiro Nunes - Desenvolvedor Web - Desenvolvimento e criação de sites, logotipos e materiais gráficos"
+      content="Mauricio Ribeiro Nunes - Desenvolvedor Web em Viamão-RS - Desenvolvimento e criação de sites, logotipos, materiais gráficos e edição de vídeo."
     />
     <meta
       name="keywords"
-      content="mauricio, ribeiro, nunes, portifólio, code, frontend, front-end, desenvolvedor, developer, programador, programmer, sistema, system, cms, conteúdo, content, gerenciador, management, design, web, site, criação, create, mídia, digital, impressa, criar, criação, responsive, grid, responsivo, bootstrap, layout, logica, gráfico, graph, html, css, js, javascript, php"
+      content="desenvolvedor, developer, programador, programmer, design gráfico, graphic design, web design, mauricio ribeiro nunes"
     />
     <meta name="author" content="Maurício Ribeiro Nunes" />
 
@@ -256,7 +256,7 @@
                   <span class="icon is-large">
                     <i class="fab fa-2x fa-whatsapp has-text-success"></i>
                   </span>
-                  <span>&nbsp;(51)&nbsp;99870.0232</span>
+                  <span>&nbsp;(51)&nbsp;99496-2129</span>
                 </div>
               </div>
               <div class="column is-4">
@@ -289,7 +289,7 @@
     <div class="copyright">
       <p>
         <strong class="has-text-white">Desenvolvido</strong> por
-        <a href="https://github.com/maurici0nunes">Mauricio Ribeiro Nunes</a>
+        <a href="https://github.com/maurici0nunes">Maurício Ribeiro Nunes</a>
       </p>
     </div>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -306,13 +306,13 @@
             "LOGOTIPOS",
             "SITES",
             "ARTE PARA MÍDIA DIGITAL",
-            "ARTE PARA MÍDIA IMPRESSA"
+            "ARTE PARA MÍDIA IMPRESSA",
           ],
           typeSpeed: 100,
           cursorChar: "&#95;",
           backSpeed: 45,
           backDelay: 1200,
-          loop: true
+          loop: true,
         });
 
         // Get all "navbar-burger" elements
@@ -324,7 +324,7 @@
         // Check if there are any navbar burgers
         if ($navbarBurgers.length > 0) {
           // Add a click event on each of them
-          $navbarBurgers.forEach(el => {
+          $navbarBurgers.forEach((el) => {
             el.addEventListener("click", () => {
               // Get the target from the "data-target" attribute
               const target = el.dataset.target;
@@ -347,7 +347,7 @@
       let link = document.querySelectorAll('a[href^="#"]');
 
       link.forEach((el, i) => {
-        el.addEventListener("click", e => {
+        el.addEventListener("click", (e) => {
           e.preventDefault();
           let target = el.hash;
           jump(target);
