@@ -4,11 +4,11 @@ body {
 }
 
 .is-primary-color {
-  color: #1577b7;
+  color: #0082E6;
 }
 
 .is-secundary-color {
-  color: #48555e;
+  color: #2C3B54;
 }
 
 .title-slim {
@@ -23,6 +23,10 @@ body {
   padding: 6rem 1.5rem;
 }
 
+p {
+  margin-bottom: 30px;
+}
+
 /* NavBar */
 
 .logo {
@@ -31,16 +35,9 @@ body {
 }
 
 .navbar {
-  background-image: linear-gradient(
-    to bottom,
-    #f6f8f9 0%,
-    #e5ebee 50%,
-    #d7dee3 51%,
-    #f5f7f9 100%
-  );
+  background-color: #fff;
   min-height: 84px;
   box-sizing: border-box;
-  border-bottom: 1px solid #fefefe;
   box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.18);
 }
 
@@ -54,13 +51,13 @@ body {
 }
 
 a.navbar-item {
-  color: #48555e;
+  color: #2C3B54;
   font-weight: 900;
   padding-left: 12px;
 }
 
 a.navbar-item:hover {
-  color: #1577b7;
+  color: #0082E6;
   background-color: transparent;
 }
 
@@ -93,7 +90,7 @@ a.navbar-item:hover {
 }
 
 .portifolio_bg {
-  background-color: #48555e;
+  background-color: #2C3B54;
 }
 
 .services_bg::before,
@@ -115,7 +112,7 @@ a.navbar-item:hover {
 
 .portifolio_bg::before,
 .portifolio_bg::after {
-  background-color: #48555e;
+  background-color: #2C3B54;
 }
 
 .services_bg::before,
@@ -146,16 +143,28 @@ a.navbar-item:hover {
 }
 
 .footer {
-  background-color: #272e33;
+  background-color: #2C3B54;
   color: white;
   padding: 3rem 1.5rem !important;
 }
 
 .copyright {
-  background-color: black;
+  background-color: #1B2534;
   color: white;
   text-align: center;
   padding: 1.5rem 0.75rem;
+}
+
+.copyright p {
+  margin-bottom: 0;
+}
+
+.copyright a {
+  color: #0082E6;
+}
+
+.copyright a:hover {
+  color: #0CBDF2;
 }
 
 /* LOADER */
@@ -171,7 +180,7 @@ a.navbar-item:hover {
 .pageloader {
   position: fixed;
   padding-top: 2em;
-  background: #48555e;
+  background: #2C3B54;
   z-index: 999998;
   transition: transform 0.35s ease-out, -webkit-transform 0.35s ease-out;
   will-change: transform;
