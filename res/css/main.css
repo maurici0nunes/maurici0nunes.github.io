@@ -4,11 +4,11 @@ body {
 }
 
 .is-primary-color {
-  color: #0082E6;
+  color: #198cff;
 }
 
 .is-secundary-color {
-  color: #2C3B54;
+  color: #3d4b66;
 }
 
 .title-slim {
@@ -51,13 +51,13 @@ p {
 }
 
 a.navbar-item {
-  color: #2C3B54;
+  color: #3d4b66;
   font-weight: 900;
   padding-left: 12px;
 }
 
 a.navbar-item:hover {
-  color: #0082E6;
+  color: #198cff;
   background-color: transparent;
 }
 
@@ -90,7 +90,7 @@ a.navbar-item:hover {
 }
 
 .portifolio_bg {
-  background-color: #2C3B54;
+  background-color: #3d4b66;
 }
 
 .services_bg::before,
@@ -112,7 +112,7 @@ a.navbar-item:hover {
 
 .portifolio_bg::before,
 .portifolio_bg::after {
-  background-color: #2C3B54;
+  background-color: #3d4b66;
 }
 
 .services_bg::before,
@@ -143,13 +143,13 @@ a.navbar-item:hover {
 }
 
 .footer {
-  background-color: #2C3B54;
+  background-color: #1f2533;
   color: white;
   padding: 3rem 1.5rem !important;
 }
 
 .copyright {
-  background-color: #1B2534;
+  background-color: #000;
   color: white;
   text-align: center;
   padding: 1.5rem 0.75rem;
@@ -160,11 +160,11 @@ a.navbar-item:hover {
 }
 
 .copyright a {
-  color: #0082E6;
+  color: #198cff;
 }
 
 .copyright a:hover {
-  color: #0CBDF2;
+  color: #26b7ff;
 }
 
 /* LOADER */
@@ -180,7 +180,7 @@ a.navbar-item:hover {
 .pageloader {
   position: fixed;
   padding-top: 2em;
-  background: #2C3B54;
+  background: #3d4b66;
   z-index: 999998;
   transition: transform 0.35s ease-out, -webkit-transform 0.35s ease-out;
   will-change: transform;
