@@ -39,7 +39,17 @@ hr {
 
 .typed {
   text-shadow: 2px 2px var(--complementary-color);
+  font-style: italic;
 }
+
+.typed b {
+  font-weight: 900;
+  font-style: normal;
+}
+/* 
+.typed-cursor {
+  display: flex;
+} */
 
 ol.stage-list {
   list-style-position: inside;

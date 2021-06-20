@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "Edição de <b>VÍDEO</b>",
     ],
     typeSpeed: 60,
-    cursorChar: "&#10073;",
+    cursorChar: "&#10074;",
     backSpeed: 25,
     backDelay: 1600,
     loop: true,
